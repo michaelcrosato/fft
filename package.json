@@ -1,0 +1,30 @@
+{
+  "name": "crown-and-cinder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "test:production": "tsx scripts/verify-production.ts",
+    "format": "prettier --write src tests scripts playwright.config.ts",
+    "format:check": "prettier --check src tests scripts playwright.config.ts"
+  },
+  "dependencies": {
+    "three": "0.186.0",
+    "three-legacy": "npm:three@0.160.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.0.0",
+    "@types/three": "0.186.0",
+    "agent-browser": "0.38.1",
+    "prettier": "^3.9.8",
+    "tsx": "^4.20.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}

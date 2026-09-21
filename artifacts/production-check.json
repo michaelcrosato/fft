@@ -1,0 +1,63 @@
+{
+  "testedAt": "2026-09-20T23:37:54.431Z",
+  "viewport": "1920×1080, high quality, headless Chromium",
+  "report": [
+    {
+      "requested": "auto",
+      "renderer": "WebGPU",
+      "mission": 5,
+      "drawCalls": 323,
+      "triangles": 23407,
+      "sampledFrames": 720,
+      "meanFps": 144,
+      "medianFrameMs": 6.9,
+      "p95FrameMs": 7,
+      "gpuAdapter": {
+        "vendor": "nvidia",
+        "architecture": "lovelace",
+        "device": "",
+        "description": ""
+      },
+      "errors": [],
+      "externalRequests": []
+    },
+    {
+      "requested": "webgl2",
+      "renderer": "WebGL2",
+      "mission": 5,
+      "drawCalls": 323,
+      "triangles": 23407,
+      "sampledFrames": 719,
+      "meanFps": 144,
+      "medianFrameMs": 6.9,
+      "p95FrameMs": 7,
+      "gpuAdapter": {
+        "vendor": "nvidia",
+        "architecture": "lovelace",
+        "device": "",
+        "description": ""
+      },
+      "errors": [],
+      "externalRequests": []
+    },
+    {
+      "requested": "webgl1",
+      "renderer": "WebGL1",
+      "mission": 5,
+      "drawCalls": 162,
+      "triangles": 11769,
+      "sampledFrames": 720,
+      "meanFps": 144,
+      "medianFrameMs": 6.9,
+      "p95FrameMs": 7,
+      "gpuAdapter": {
+        "vendor": "nvidia",
+        "architecture": "lovelace",
+        "device": "",
+        "description": ""
+      },
+      "errors": [],
+      "externalRequests": []
+    }
+  ]
+}
